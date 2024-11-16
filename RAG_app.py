@@ -3,8 +3,7 @@ import base64
 import chainlit as cl
 import os
 
-# Make sure to securely store the API key. Use an environment variable or a config file.
-os.environ['OPENAI_API_KEY'] = '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'
+# Make sure to securely store the API key. Use an environment variable or a config file.git
 
 # Initialize OpenAI client with API key
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
